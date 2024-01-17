@@ -1,1 +1,1 @@
-# infoDex.io
+# infoDex
