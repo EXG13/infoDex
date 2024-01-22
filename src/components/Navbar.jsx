@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Coins from "./Coins";
 // import logo from "../assets/logo.png";
-import logo from "/Public/images/logo.png";
+import logo from "/public/images/logo.png";
 
 function Navbar() {
   return (
@@ -18,8 +18,7 @@ function Navbar() {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
+          data-bs-target="#navmenu">
           <span className="navbar-toggler-icon"></span>
         </button>
 
@@ -31,8 +30,7 @@ function Navbar() {
                 end
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
-                }
-              >
+                }>
                 Home
               </NavLink>
             </li>
@@ -42,8 +40,7 @@ function Navbar() {
                 end
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
-                }
-              >
+                }>
                 About
               </NavLink>
             </li>
@@ -53,8 +50,7 @@ function Navbar() {
                 end
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
-                }
-              >
+                }>
                 Contact
               </NavLink>
             </li>
