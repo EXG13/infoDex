@@ -1,7 +1,8 @@
 import React from "react";
-import logo from "../assets/logo.png";
 import { NavLink } from "react-router-dom";
 import Coins from "./Coins";
+// import logo from "../assets/logo.png";
+import logo from "/Public/images/logo.png";
 
 function Navbar() {
   return (
