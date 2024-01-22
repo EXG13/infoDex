@@ -1,0 +1,26 @@
+/* navigation */
+.nav-link {
+  color: #af7537 !important;
+}
+
+.board {
+  background-color: #f6c042;
+  padding: 1px;
+}
+
+#title {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.percentage {
+  color: green;
+}
+
+.symbol {
+  color: #af7537;
+}
+
+/* about */
+#about {
+  margin-left: 120px;
+}
