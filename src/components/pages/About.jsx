@@ -2,12 +2,12 @@ import React from "react";
 
 function About() {
   return (
-    <section class="bg-dark text-light p-5 text-center">
-      <div id="about" class="container">
+    <section className="bg-dark text-light p-5 text-center">
+      <div id="about" className="container">
         <div class="d-sm-flex justify-content-around align-items-center">
           <div>
             <h1 className="d-flex justify-content-start py-4">About infoDEx</h1>
-            <p class="text-start lead w-50">
+            <p className="text-start lead w-50">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio totam ipsum aspernatur modi recusandae reiciendis
               officia doloribus laborum consequatur maxime molestiae, id ullam
@@ -21,9 +21,9 @@ function About() {
               sapiente quae, non debitis odio. Doloremque excepturi voluptate ad
               aliquid quam accusamus aut.
             </p>
-            <div class="icon mb-4"></div>
+            <div className="icon mb-4"></div>
           </div>
-          <img class="img-fluid w-25 rounded" src="" alt="" />
+          <img className="img-fluid w-25 rounded" src="" alt="" />
         </div>
       </div>
     </section>

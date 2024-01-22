@@ -11,7 +11,7 @@ function Coins() {
       )
       .then((res) => {
         setCoins(res.data);
-        console.log(res.data);
+        // console.log(res.data);
       });
   }, []);
 
