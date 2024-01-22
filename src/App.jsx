@@ -5,11 +5,13 @@ import Navbar from "./components/Navbar";
 import About from "./components/pages/About";
 import Home from "./components/Home";
 import Contact from "./components/pages/Contact"
+import NewsBoard from "./components/NewsBoard";
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <NewsBoard/>
 
       <Routes>
         <Route path="/" element={<Home />} />

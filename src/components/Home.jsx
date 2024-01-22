@@ -6,8 +6,7 @@ import otherArticles from "../otherArticles.json";
 const Home = () => {
   return (
     <section className="p-5 bg-dark d-flex">
-      <Container className="main-article">
-        <h1 className="homepage-title"> Breaking News</h1>
+      <Container className="main-article mt-5">
         {/* Main Article */}
         <Row className="text-center g-4">
           {mainArticle.map((mainArticle) => (

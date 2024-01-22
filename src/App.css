@@ -5,11 +5,12 @@
 
 .board {
   background-color: #f6c042;
-  padding: 1px;
+  /* padding: 1px; */
 }
 
 #title {
   font-family: "Nunito Sans", sans-serif;
+  margin-top: 4px;
 }
 
 .percentage {
