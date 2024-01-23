@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import mainArticle from "../mainArticle.json";
-import otherArticles from "../otherArticles.json";
+import mainArticle from "../../mainArticle.json";
+import otherArticles from "../../otherArticles.json";
 
 const Home = () => {
   return (
