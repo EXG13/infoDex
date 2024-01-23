@@ -10,18 +10,26 @@
 
 #title {
   font-family: "Nunito Sans", sans-serif;
-  margin-top: 4px;
-}
-
-.percentage {
-  color: green;
+  margin-top: 0.25rem;
 }
 
 .symbol {
   color: #af7537;
 }
 
+@media (max-width: 768px) {
+  #box {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.625rem;
+  }
+
+  h5 {
+    font-size: smaller !important;
+  }
+}
+
 /* about */
 #about {
-  margin-left: 120px;
+  margin-left: 7.5rem;
 }

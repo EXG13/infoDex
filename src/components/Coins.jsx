@@ -24,7 +24,11 @@ function Coins() {
             <h5 className="price">
               {"$" + crypto.current_price.toLocaleString()}
             </h5>
-            <h5 className="percentage">
+            <h5
+              style={{
+                color: crypto.price_change_percentage_24h < 0 ? "red" : "green",
+              }}
+            >
               {crypto.price_change_percentage_24h.toFixed(2) + "%"}
             </h5>
           </div>
