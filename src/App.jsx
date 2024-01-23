@@ -6,6 +6,7 @@ import About from "./components/pages/About";
 import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact"
 import NewsBoard from "./components/NewsBoard";
+import SearchBar from "./components/Searchbar";
 
 function App() {
   return (
