@@ -12,16 +12,15 @@ function Navbar() {
           <img className="logo" src={logo} alt="logo..." />
         </a>
 
-        <Coins />
-
         <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navmenu">
+          data-bs-target="#navmenu"
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
-
+        <Coins />
         <div className="collapse navbar-collapse" id="navmenu">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
@@ -30,7 +29,8 @@ function Navbar() {
                 end
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
-                }>
+                }
+              >
                 Home
               </NavLink>
             </li>
@@ -40,7 +40,8 @@ function Navbar() {
                 end
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
-                }>
+                }
+              >
                 About
               </NavLink>
             </li>
@@ -50,7 +51,8 @@ function Navbar() {
                 end
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
-                }>
+                }
+              >
                 Contact
               </NavLink>
             </li>
