@@ -11,7 +11,7 @@ const Home = () => {
         <Row className="text-center g-4">
           {mainArticle.map((mainArticle) => (
             <Col key={mainArticle.id}>
-              <div className="card bg-light text-dark w-75 mainCard">
+              <div className="card bg-light text-dark w-50 mainCard">
                 <img
                   src={mainArticle.image}
                   className="w-100"
