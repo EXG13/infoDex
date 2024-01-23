@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-1">
       <div className="container">
-        <a href="#" className="navbar-brand">
+        <a href="/" className="navbar-brand">
           <img className="logo" src={logo} alt="logo..." />
         </a>
 
