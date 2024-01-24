@@ -1,5 +1,5 @@
-import React from "react";
-import Searchbar from "./Searchbar"
+import { useState } from 'react';
+import Searchbar from "./pages/Searchbar"
 
 function NewsBoard() {
   const[searchQuery, setSearchQuery] = useState("");
