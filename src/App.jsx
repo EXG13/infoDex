@@ -7,12 +7,14 @@ import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact"
 import NewsBoard from "./components/NewsBoard";
 import Footer from "./components/footer";
+// import Searchbar from "./components/Searchbar";
 
 function App() {
   return (
     <Router>
       <Navbar/>
       <NewsBoard/>
+    
 
 
       <Routes>
