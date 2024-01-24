@@ -6,13 +6,14 @@ import About from "./components/pages/About";
 import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact"
 import NewsBoard from "./components/NewsBoard";
-import SearchBar from "./components/Searchbar";
+// import Searchbar from "./components/Searchbar";
 
 function App() {
   return (
     <Router>
       <Navbar />
       <NewsBoard/>
+    
 
       <Routes>
         <Route path="/" element={<Home />} />
