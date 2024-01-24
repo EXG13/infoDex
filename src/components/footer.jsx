@@ -6,55 +6,41 @@ function footer() {
     return (
         <footer>
             <div className="container-fluid">
-                <div className="row bg-secondary text-white">
-                    <section class="mb-2 mt-2 text-center">
+                <div className="row bg-dark text-white">
+                    <section class="mb-4 mt-2 text-center">
                         {/* <!-- Facebook --> */}
                         <a
-                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
+                            className="btn btn-outline-warning btn-floating m-1 rounded-circle"
                             href="#!"
                             role="button"
-                        ><i className="fab fa-facebook-f"></i
+                        ><i className="fa fa-facebook-f"></i
                         ></a>
 
                         {/* <!-- Twitter --> */}
                         <a
-                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
+                            className="btn btn-outline-warning btn-floating m-1 rounded-circle"
                             href="#!"
                             role="button"
-                        ><i className="fab fa-twitter"></i
-                        ></a>
-
-                        {/* <!-- Google --> */}
-                        <a
-                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
-                            href="#!"
-                            role="button"
-                        ><i className="fab fa-google"></i
+                        ><i className="fa fa-twitter"></i
                         ></a>
 
                         {/* <!-- Instagram --> */}
                         <a
-                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
+                            className="btn btn-outline-warning btn-floating m-1 rounded-circle"
                             href="#!"
                             role="button"
-                        ><i className="fab fa-instagram"></i
+                        ><i className="fa fa-instagram"></i
                         ></a>
 
                         {/* <!-- Linkedin --> */}
                         <a
-                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
+                            className="btn btn-outline-warning btn-floating m-1 rounded-circle"
                             href="#!"
                             role="button"
-                        ><i class="fab fa-linkedin-in"></i
+                        ><i class="fa fa-linkedin"></i
                         ></a>
 
-                        {/* <!-- Github --> */}
-                        <a
-                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
-                            href="#!"
-                            role="button"
-                        ><i className="fab fa-github"></i
-                        ></a>
+
                     </section>
                 </div>
 
