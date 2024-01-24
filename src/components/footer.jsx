@@ -10,7 +10,7 @@ function footer() {
                     <section class="mb-2 mt-2 text-center">
                         {/* <!-- Facebook --> */}
                         <a
-                            className="btn btn-outline-light btn-floating m-1"
+                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
                             href="#!"
                             role="button"
                         ><i className="fab fa-facebook-f"></i
@@ -18,7 +18,7 @@ function footer() {
 
                         {/* <!-- Twitter --> */}
                         <a
-                            className="btn btn-outline-light btn-floating m-1"
+                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
                             href="#!"
                             role="button"
                         ><i className="fab fa-twitter"></i
@@ -26,7 +26,7 @@ function footer() {
 
                         {/* <!-- Google --> */}
                         <a
-                            className="btn btn-outline-light btn-floating m-1"
+                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
                             href="#!"
                             role="button"
                         ><i className="fab fa-google"></i
@@ -34,7 +34,7 @@ function footer() {
 
                         {/* <!-- Instagram --> */}
                         <a
-                            className="btn btn-outline-light btn-floating m-1"
+                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
                             href="#!"
                             role="button"
                         ><i className="fab fa-instagram"></i
@@ -42,7 +42,7 @@ function footer() {
 
                         {/* <!-- Linkedin --> */}
                         <a
-                            className="btn btn-outline-light btn-floating m-1"
+                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
                             href="#!"
                             role="button"
                         ><i class="fab fa-linkedin-in"></i
@@ -50,7 +50,7 @@ function footer() {
 
                         {/* <!-- Github --> */}
                         <a
-                            className="btn btn-outline-light btn-floating m-1"
+                            className="btn btn-outline-light btn-floating m-1 rounded-circle"
                             href="#!"
                             role="button"
                         ><i className="fab fa-github"></i
