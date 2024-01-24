@@ -53,6 +53,8 @@ const Home = () => {
         {/* End of Other Articles */}
       </Container>
     </section>
+
+  
   );
 };
 
