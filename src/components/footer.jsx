@@ -7,6 +7,8 @@ function footer() {
         <footer>
             <div className="container-fluid">
                 <div className="row bg-dark text-white">
+
+                    <hr className="mb-5"></hr>
                     {/* Section: Form */}
                     <section>
                         <form action="">
@@ -14,7 +16,7 @@ function footer() {
                             <div className="row d-flex justify-content-center">
                                 {/* Grid column */}
                                 <div className="col-auto">
-                                    <p className="pt-2">
+                                    <p className="pt-1 text-warning">
                                         <strong>Sign up for our newsletter</strong>
                                     </p>
                                 </div>
@@ -24,8 +26,7 @@ function footer() {
                                 <div className="col-md-5 col-12">
                                     {/* Email input */}
                                     <div className="form-outline form-white mb-4">
-                                        <input type="email" id="form5Example2" className="form-control" />
-                                        <label className="form-label" htmlFor="form5Example2">Email address</label>
+                                        <input type="email" placeholder="Email address" id="subForm" className="form-control" />
                                     </div>
                                 </div>
                                 {/* Grid column */}
@@ -33,7 +34,7 @@ function footer() {
                                 {/* Grid column */}
                                 <div className="col-auto">
                                     {/* Submit button */}
-                                    <button type="submit" className="btn btn-outline-light mb-4">
+                                    <button type="submit" className="btn btn-outline-warning mb-4">
                                         Subscribe
                                     </button>
                                 </div>
