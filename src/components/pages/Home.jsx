@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <section className=" bg-dark d-flex">
-      <Container className="main-article mt-5">
+      <Container className="main-article mt-5 w-100">
         {/* Main Article */}
         <Row className="text-center">
           {mainArticle.map((news) => (

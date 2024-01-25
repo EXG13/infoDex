@@ -10,7 +10,7 @@ function NewsBoard() {
 
   return (
     <div className="bg-warning d-flex justify-content-center align-items-center ">
-      <h2 className="ms-5 text-center">Daily Crypto News</h2>
+      <h2 className="ms-5 text-center">We Aggregate Crypto News</h2>
       <Searchbar onSearch={handleSearch} />
     </div>
   );

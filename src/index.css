@@ -16,8 +16,9 @@
 }
 
 @media (max-width: 768px) {
-  .mainCard {
-    margin-left: -2%;
+
+  .main-article {
+    width: 100vw;
   }
 
   .secondaryTitle {
