@@ -4,14 +4,7 @@
 }
 
 .mainCard {
-  margin-left: 3%;
-}
-
-.twitter-timeline {
-  /* height: 17vh; */
-  width: 30vw;
-  margin-left: 38.5%;
-  position: absolute;
+  margin-left: 25%;
 }
 
 .card-title {
@@ -29,13 +22,5 @@
 
   .secondaryTitle {
     font-weight: 800;
-  }
-
-  .twitter-timeline {
-    margin-left: 31.4%;
-    width: 30vw;
-    border-radius: 10px;
-
-    /* height: 10vh; */
   }
 }
