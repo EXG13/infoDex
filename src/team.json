@@ -2,32 +2,32 @@
   {
     "id": 1,
     "title": "Tomer",
-    "image": "",
-    "description": "",
-    "link": ""
+    "image": "images/tom.JPG",
+    "github": "https://github.com/EXG13",
+    "linkedin": "https://www.linkedin.com/in/tomerjlind/"
   },
 
   {
     "id": 2,
     "title": "Monica",
-    "image": "",
-    "description": "",
-    "link": ""
+    "image": "images/monica.jpeg",
+    "github": "https://github.com/Acinom7",
+    "linkedin": "https://www.linkedin.com/"
   },
 
   {
     "id": 3,
     "title": "Habib",
     "image": "",
-    "description": "",
-    "link": ""
+    "github": "",
+    "linkedin": ""
   },
 
   {
     "id": 4,
     "title": "Krupa",
     "image": "",
-    "description": "",
-    "link": ""
+    "github": "",
+    "linkedin": ""
   }
 ]
