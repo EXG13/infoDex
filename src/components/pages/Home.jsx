@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import axios from "axios";
+// The following jsons are for testing purposes only:
 // import mainArticle from "../../mainArticle.json";
 // import otherArticles from "../../otherArticles.json";
 
@@ -11,13 +12,9 @@ const Home = () => {
   useEffect(() => {
     axios
       .get(
-        // "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=2ec4ed69665f4fc38dd8b2187b111b1e"
         // "https://newsapi.org/v2/everything?q=Crypto&from=2024-01-25&sortBy=popularity&apiKey=2ec4ed69665f4fc38dd8b2187b111b1e"
         // "https://newsapi.org/v2/everything?q=blockchain&apiKey=2ec4ed69665f4fc38dd8b2187b111b1e"
-        // "https://newsapi.org/v2/everything?domains=https://cointelegraph.com/&apiKey=2ec4ed69665f4fc38dd8b2187b111b1e"
-        // "https://newsapi.org/v2/everything?q=blockchain&domains=cointelegraph.com,coindesk.com&apiKey=2ec4ed69665f4fc38dd8b2187b111b1e"
-
-        "https://newsapi.org/v2/everything?q=blockchain&domains=cointelegraph.com,coindesk.com&sortBy=publishedAt&apiKey=2ec4ed69665f4fc38dd8b2187b111b1e"
+        "https://newsapi.org/v2/everything?q=blockchain&domains=cointelegraph.com,coindesk.com&sortBy=publishedAt&apiKey=714f828bb00148998bf0674ff205ef26"
       )
       .then((res) => {
         setMainArticle([res.data.articles[0]]);
@@ -26,32 +23,15 @@ const Home = () => {
   }, []);
 
   return (
-    <section className="p-1 bg-dark d-flex">
+    <section className=" bg-dark d-flex">
       <Container className="main-article mt-5">
-        {/* Twitter Feed */}
-
-        <Container className="twitter-timeline">
-          <a
-            class="twitter-timeline"
-            data-lang="en"
-            data-width="500"
-            data-height="520"
-            data-dnt="true"
-            data-theme="light"
-            href="https://twitter.com/zachxbt">
-            Tweets by zachxbt
-          </a>
-        </Container>
-
-        {/* End of Twitter Feed */}
-
         {/* Main Article */}
         <Row className="text-center">
           {mainArticle.map((news) => (
             <Col key={news.title}>
               <div className="card bg-light text-dark w-50 mainCard">
                 <a href={news.url} target="_blank" rel="noopener noreferrer">
-                  {/* Note to self - noopener noreferrer are pretty important for security and privacy. Read more about it later */}
+                  {/* Note to self - "noopener noreferrer" are pretty important for security and privacy. Read more about it later */}
                   <img src={news.urlToImage} className="w-100" />
                 </a>
                 <div className="card-body text-center">
