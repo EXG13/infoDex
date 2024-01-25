@@ -3,16 +3,6 @@
   color: #af7537 !important;
 }
 
-.board {
-  background-color: #f6c042;
-  /* padding: 1px; */
-}
-
-#title {
-  font-family: "Nunito Sans", sans-serif;
-  margin-top: 0.25rem;
-}
-
 .symbol {
   color: #af7537;
 }
@@ -30,14 +20,11 @@
 }
 
 /* about */
-#about {
-  margin-left: 7.5rem;
+.icon-container {
+  display: flex;
+  gap: 10px;
 }
 
 .icon {
   color: white;
-}
-
-h3 {
-  font-family: "Nunito Sans", sans-serif;
 }
