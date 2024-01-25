@@ -20,6 +20,10 @@
 }
 
 /* about */
+#about {
+  margin-left: 55px;
+}
+
 .icon-container {
   display: flex;
   gap: 10px;
