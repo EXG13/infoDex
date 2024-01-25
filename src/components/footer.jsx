@@ -7,6 +7,43 @@ function footer() {
         <footer>
             <div className="container-fluid">
                 <div className="row bg-dark text-white">
+                    {/* Section: Form */}
+                    <section>
+                        <form action="">
+                            {/* Grid row */}
+                            <div className="row d-flex justify-content-center">
+                                {/* Grid column */}
+                                <div className="col-auto">
+                                    <p className="pt-2">
+                                        <strong>Sign up for our newsletter</strong>
+                                    </p>
+                                </div>
+                                {/* Grid column */}
+
+                                {/* Grid column */}
+                                <div className="col-md-5 col-12">
+                                    {/* Email input */}
+                                    <div className="form-outline form-white mb-4">
+                                        <input type="email" id="form5Example2" className="form-control" />
+                                        <label className="form-label" htmlFor="form5Example2">Email address</label>
+                                    </div>
+                                </div>
+                                {/* Grid column */}
+
+                                {/* Grid column */}
+                                <div className="col-auto">
+                                    {/* Submit button */}
+                                    <button type="submit" className="btn btn-outline-light mb-4">
+                                        Subscribe
+                                    </button>
+                                </div>
+                                {/* Grid column */}
+                            </div>
+                            {/* Grid row */}
+                        </form>
+                    </section>
+
+
                     <section class="mb-4 mt-2 text-center">
                         {/* <!-- Facebook --> */}
                         <a
