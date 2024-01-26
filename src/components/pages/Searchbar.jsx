@@ -14,20 +14,19 @@ function Searchbar ({ onSearch}) {
 
 
     return (
+      <div className="search-bar d-flex align-items-center justify-content-between py-1">
+        <input
+          type="text"
+          placeholder="Search for news..."
+          value={query}
+          onChange={handleInputChange}
+          className="form-control me-2 border border-dark"
+        />
 
-        <div className="search-bar d-flex align-items-center">
-            <input 
-            type="text"
-            placeholder="Search for news..."
-            value={query}
-            onChange={handleInputChange}
-            className="form-control me-2" />
-
-            <button className="btn btn-primary search-button" onClick={handleSearch}>
-            Search
-            </button>
-        </div>
-
+        <button className="btn btn-dark search-button" onClick={handleSearch}>
+          Search
+        </button>
+      </div>
     );
 
 }

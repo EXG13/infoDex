@@ -4,6 +4,10 @@
 font-family: 'Nunito Sans', sans-serif;
 }
 
+h2 {
+  font-size: 28px;
+}
+
 /* HOMEPAGE */
 
 .mainCard {
@@ -27,6 +31,15 @@ font-family: 'Nunito Sans', sans-serif;
   .secondaryTitle {
     font-weight: 800;
   }
+
+  .contact-section {
+    margin-left: -20%;
+  }
+
+  .contact-btn {
+    box-sizing:initial;
+}
+
 }
 
 /* CONTACT FORM */

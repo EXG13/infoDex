@@ -8,23 +8,24 @@ function About() {
       <div className="container">
         <div
           id="about"
-          className="row d-sm-flex justify-content-around align-items-center"
-        >
+          className="row d-sm-flex justify-content-around align-items-center">
           <div className="col-lg-6 col-md-8 col-sm-12">
-            <h1 className="py-3 py-md-5">About infoDEx</h1>
+            <h1 className="py-3 py-md-5">About infoDEX</h1>
             <p className="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio totam ipsum aspernatur modi recusandae reiciendis
-              officia doloribus laborum consequatur maxime molestiae, id ullam
-              quidem aperiam harum minus dolor sint vel nulla eos dicta! Aliquam
-              optio quidem ad ex adipisci eveniet magnam odit numquam, excepturi
-              ipsam sunt beatae eaque nesciunt quaerat officia quis error nobis
-              dolores, neque veritatis eos atque. Nihil asperiores culpa
-              pariatur exercitationem sed quos, ipsa illum, enim unde aliquam
-              dignissimos eius hic dicta itaque, dolor nisi! Quasi accusamus
-              laborum voluptate facilis tempore mollitia, totam blanditiis
-              sapiente quae, non debitis odio. Doloremque excepturi voluptate ad
-              aliquid quam accusamus aut.
+              Explore the world of blockchain and cryptocurrency news
+              effortlessly at infoDEX - your reliable source for concise updates
+              from trusted sources. Our mission is simple: to be your go-to
+              platform for timely information in the crypto space, welcoming
+              both enthusiasts and newcomers. Opting for infoDEX means gaining
+              access to comprehensive coverage. We deliver a holistic view of
+              current trends and technological advancements through curated news
+              from diverse, trusted sources, ensuring dependable information to
+              keep you well-informed. Join us in creating a vibrant and
+              knowledgeable community interested in blockchain and
+              cryptocurrency. Your feedback, suggestions, and insights are
+              valuable contributions to a space where every viewpoint is
+              respected. Thank you for choosing infoDEX as your dedicated Crypto
+              News Hub!
             </p>
           </div>
           <div className="col-lg-6 col-md-4 col-sm-12">
@@ -40,8 +41,7 @@ function About() {
             return (
               <div
                 key={props.id}
-                className="cardContainer col-lg-3 col-md-4 col-sm-12"
-              >
+                className="cardContainer col-lg-3 col-md-4 col-sm-12">
                 <div className="card border-warning bg-dark text-light">
                   <img src={props.image} class="card-img-top" alt="" />
                   <div className="card-body d-flex justify-content-around">

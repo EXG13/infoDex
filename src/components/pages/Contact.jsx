@@ -5,8 +5,8 @@ function Contact() {
     <section className="d-flex p-5 bg-dark text-light" id="contactSection">
       <div className="container contact">
         <div className="row g-4">
-          <div className="col-md-6">
-            <h2 id="contact" className="text-center text-light mb-4">
+          <div className="col-md-6 contact-section">
+            <h2 id="contact" className="text-center text-light mb-4 ">
               Contact
             </h2>
             <form action="https://formspree.io/f/xzbnzlye" method="post">
@@ -17,7 +17,7 @@ function Contact() {
                 <input
                   name="fname"
                   type="text"
-                  className="form-control"
+                  className="form-control border border-warning bg-dark text-light"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                 />
@@ -32,13 +32,13 @@ function Contact() {
                 <input
                   name="email"
                   type="email"
-                  className="form-control"
+                  className="form-control border border-warning bg-dark text-light"
                   id="exampleInputPassword1"
                 />
               </div>
               <div>
                 <textarea
-                  className="textarea"
+                  className="textarea border border-warning bg-dark text-light"
                   name="comment"
                   form="usrform"
                   placeholder="For collaboration inquiries or if you have valuable information to share with our news aggregator platform, please feel free to reach out. We welcome partnerships, freelance opportunities, and reports on compelling news stories."></textarea>
@@ -46,7 +46,7 @@ function Contact() {
               <button
                 name="submit"
                 type="submit"
-                className="btn btn-outline-warning w-25 contact-btn">
+                className="btn btn-outline-warning w-25 contact-btn text-light">
                 Submit
               </button>
             </form>
