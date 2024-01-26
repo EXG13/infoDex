@@ -14,7 +14,7 @@ const Home = () => {
       .get(
         // "https://newsapi.org/v2/everything?q=Crypto&from=2024-01-25&sortBy=popularity&apiKey=2ec4ed69665f4fc38dd8b2187b111b1e"
         // "https://newsapi.org/v2/everything?q=blockchain&apiKey=2ec4ed69665f4fc38dd8b2187b111b1e"
-        "https://newsapi.org/v2/everything?q=blockchain&domains=cointelegraph.com,coindesk.com&sortBy=publishedAt&apiKey=714f828bb00148998bf0674ff205ef26"
+        "https://newsapi.org/v2/everything?q=blockchain&domains=cointelegraph.com,coindesk.com&sortBy=publishedAt&apiKey=2ec4ed69665f4fc38dd8b2187b111b1e"
       )
       .then((res) => {
         setMainArticle([res.data.articles[0]]);
