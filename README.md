@@ -8,8 +8,11 @@ Website: https://infodex-io.netlify.app
 
 ## Installation
 
+npm i
 
 ## Usage
+
+N/A
 
 ## Credits
 
