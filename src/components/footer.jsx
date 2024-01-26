@@ -4,10 +4,10 @@ import * as bootstrap from "bootstrap";
 
 function footer() {
   return (
-    <footer>
-      <div className="container-fluid">
+    <footer className="">
+      <div className="container-fluid ">
         <div className="row bg-dark text-white">
-          <hr className="mb-5"></hr>
+          <hr className="m-5"></hr>
           {/* Section: Form */}
           <section>
             <form action="">
