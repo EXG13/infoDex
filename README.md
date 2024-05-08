@@ -6,6 +6,8 @@ Welcome to infoDex, your go-to destination for staying informed on the latest ha
 
 Website: https://infodex-io.netlify.app
 
+NOTE: The News API will only work locally as this is only intended for testing and proof of concept.
+
 ## Installation
 
 npm i
